@@ -4,12 +4,17 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.text-divider{
+  color: #000000;
+}
+
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Main content */
@@ -17,17 +22,156 @@ body {
   padding: 88px 88px 88px 88px;
 }
 
+.main-content-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
 /* About me */
 .my-profession {
   margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
 }
 
-h2 {
-  font-size: 35px;
+.my-name {
+  margin: 0 0 28px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+}
+
+.my-description {
+  width: 525px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.about-me-container {
+  margin-bottom: 64px;
+}
+
+/* Projects */
+.projects-container {
+  margin-bottom: 48px;
+}
+
+.project-list {
+  margin: 0;
+  padding: 0 0 0 16px;
 }
 
 .project-item {
-  background-color: yellow;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project-item-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+}
+
+/* Work Experience */
+.work-experience-container {
+  margin-bottom: 44px;
+}
+
+.work-experience-item {
+  margin-bottom: 16px;
+}
+
+.work-experience-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+.work-experience-company {
+  color: #6d9bf5;
+}
+
+.work-period {
+  margin: 12px 0 8px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.work-dutes-container {
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+
+.work-dutes-item {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* Education */
+.education-item {
+  margin-bottom: 16px;
+}
+
+.education-place {
+  margin: 0 0 12px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6d9bf5;
+}
+
+.education-position {
+  margin: 0 0 12px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.education-data {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
 }
 
 /* Sidebar */
